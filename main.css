@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+        background: url(images/hero_image.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.container {
+	width: 550px;
+	background-color: #fff;
+	position: relative;
+	margin-left: 800px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius:10px;
+	-webkit-border-image:url(border.png) 10 10 round; /* Safari 5 */
+	-o-border-image:url(border.png) 10 10 round; /* Opera 10.5-12.1 */
+	border-image:url(border.png) 10 10 round;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: #fc6856;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	text-align: left;
+	width: 450px;
+	padding-bottom: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#entry_1279653528 
+{
+	font-weight: 300;
+}
+
+#entry_1850865505
+{
+	font-weight: 300;
+}
+
+.ss-q-title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.ss-q-short {
+	width:450px;
+}
+
+.required-message {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.ss-q-help {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+input {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.ss-secondary-text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.ss-choice-label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.ss-choice-item {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	list-style: none;
+}
+
+#ss-submit {
+	font-family: "source-sans-pro","Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	font-weight: 300;
+	color: #fff;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	background-color: #1abc9c;
+	padding: .55em 1em;
+	border-radius: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	cursor: pointer;
+}
+
+.ss-q-long {
+	width: 450px;
+	height: 100px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.required-message {
+	opacity: 0;
+	color: #fff;
+}
+
+#entry_1896173413 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+#entry_300107767 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
